@@ -24,4 +24,7 @@ ohos_cargo_crate("lib") {
     cargo_pkg_authors = "Sergio Benitez <sb@sergio.bz>"
     cargo_pkg_name = "version_check"
     cargo_pkg_description = "Tiny crate to check the version of the installed/running rustc."
+    module_output_extension = ".rlib"
+    part_name = "rust_version_check"
+    subsystem_name = "thirdparty"
 }
